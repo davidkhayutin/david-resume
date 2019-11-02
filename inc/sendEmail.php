@@ -3,8 +3,8 @@
 // Replace this with your own email address
 $siteOwnersEmail = 'david.khayutin@gmail.com';
 
-
 if($_POST) {
+	debug_to_console("Test");
 
    $name = trim(stripslashes($_POST['contactName']));
    $email = trim(stripslashes($_POST['contactEmail']));

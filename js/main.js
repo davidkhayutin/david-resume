@@ -223,6 +223,7 @@
 		submitHandler: function(form) {
 
 			var sLoader = $('#submit-loader');
+
 			$.ajax({      	
 
 		      type: "POST",
