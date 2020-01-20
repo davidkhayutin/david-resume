@@ -3126,7 +3126,9 @@ footer .copyright span:last-child::after {
 
 .myPic {
 	height: 15vw;
-	margin-left: 15%;
+	width: 10vw;
+	margin-left: 28%;
+	
 }
 
 .who {
