@@ -3141,10 +3141,30 @@ footer .copyright span:last-child::after {
 @media screen and (max-width: 600px) {
 	.myPic {
 		height: 60vw;
-		margin-left: 30%;
+		margin-left: 25%;
+		width: 40vw;
 	}
-}
+	#nav_bar {
+		border: 0;
+		background-color: #202020;
+		border-radius: 0px;
+		margin-bottom: 0;
+		height: 70px;
+	}
+	.skills {
+		font-size: 1.1rem;
 
+	}
+	.skillName {
+		/* padding-left: 35%; */
+		font-size: 80%
+	}
+	
+}
+.resp{
+	text-align: left;
+	list-style: disc
+}
 ul {
 	list-style: none;
 	text-align: center
@@ -3156,14 +3176,10 @@ h4 {
 
 }
 
-.skills {
-	/* border-bottom: 0.5px solid rgb(212, 208, 208); */
-	margin: 2%
-}
+
 
 .skillName {
-	border-bottom: 0.5px solid rgb(212, 208, 208);
-
+	padding-left: 10%;
 }
 
 h5 {
@@ -3433,5 +3449,30 @@ h5 {
 
 	to {
 		opacity: 1
+	}
+}
+
+
+
+@media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) { 
+	.skillName {
+		padding-left: 25% !important;
+		font-size: 60%
+	}
+
+}
+
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) { 
+	.skillName {
+		padding-left: 5%;
+		font-size: 60%
 	}
 }
